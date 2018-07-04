@@ -8,23 +8,17 @@ version:   	1.4.5
 date:      	27/11/13
 author:		themepunch
 email:     	info@themepunch.com
-website:   	http://www.themepunch.com
+website:   	//www.themepunch.com
 -----------------------------------------------------------------------------*/
-
-
 
 /*************************
 	-	CAPTIONS	-
 **************************/
 
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important;}
-
-
 .tp-caption { z-index:1; white-space:nowrap}
 
 .tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important;}
-
-
 .tp-caption.whitedivider3px {
 
 	color: #000000;
@@ -40,8 +34,6 @@ website:   	http://www.themepunch.com
 	border-color: #000000;
 	border-style: none;
 }
-
-
 .tp-caption.finewide_large_white {
 color:#ffffff;
 text-shadow:none;
@@ -267,8 +259,6 @@ border-width:0px;
 border-style:none;
 white-space:nowrap;
 }
-
-
 .tp-caption.medium_grey {
 position:absolute;
 color:#fff;
@@ -312,8 +302,6 @@ border-width:0px;
 border-style:none;
 white-space:nowrap;
 }
-
-
 .tp-caption.large_bold_white_25 {
 font-size:55px;
 line-height:65px;
@@ -1008,8 +996,6 @@ border-color:rgb(255, 214, 88);
 border-style:none;
 }
 
-
-
 .tp-caption.boxshadow{
 		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -1028,17 +1014,11 @@ border-style:none;
 .tp-caption.noshadow {
 		text-shadow: none;
 	}
-
-
 .tp_inner_padding	{	box-sizing:border-box;
 						-webkit-box-sizing:border-box;
 						-moz-box-sizing:border-box;
 						max-height:none !important;	}
-
-
 /*.tp-caption			{	transform:none !important}*/
-
-
 /*********************************
 	-	SPECIAL TP CAPTIONS -
 **********************************/
@@ -1089,25 +1069,17 @@ border-style:none;
 											}
 
 .tp-simpleresponsive  .button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(../images/gradient/g40.html) repeat-x top;}
-
-
 .tp-simpleresponsive  .purchase:hover,
 .tp-simpleresponsive  .button:hover,
 .tp-simpleresponsive  .button.big:hover		{	background-position:bottom, 15px 11px;}
-
-
 
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 
 	 }
 
-
-
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		.tp-simpleresponsive  .button	{	padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
 		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
-
-
 	}
 
     @media only screen and (min-width: 0px) and (max-width: 479px) {
@@ -1115,22 +1087,12 @@ border-style:none;
 		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 	}
 
-
-
-
-
 /*	BUTTON COLORS	*/
-
-
 
 .tp-simpleresponsive  .button.green, .tp-simpleresponsive  .button:hover.green,
 .tp-simpleresponsive  .purchase.green, .tp-simpleresponsive  .purchase:hover.green			{ background-color:#21a117; -webkit-box-shadow:  0px 3px 0px 0px #104d0b;        -moz-box-shadow:   0px 3px 0px 0px #104d0b;        box-shadow:   0px 3px 0px 0px #104d0b;  }
-
-
 .tp-simpleresponsive  .button.blue, .tp-simpleresponsive  .button:hover.blue,
 .tp-simpleresponsive  .purchase.blue, .tp-simpleresponsive  .purchase:hover.blue			{ background-color:#1d78cb; -webkit-box-shadow:  0px 3px 0px 0px #0f3e68;        -moz-box-shadow:   0px 3px 0px 0px #0f3e68;        box-shadow:   0px 3px 0px 0px #0f3e68;}
-
-
 .tp-simpleresponsive  .button.red, .tp-simpleresponsive  .button:hover.red,
 .tp-simpleresponsive  .purchase.red, .tp-simpleresponsive  .purchase:hover.red				{ background-color:#cb1d1d; -webkit-box-shadow:  0px 3px 0px 0px #7c1212;        -moz-box-shadow:   0px 3px 0px 0px #7c1212;        box-shadow:   0px 3px 0px 0px #7c1212;}
 
@@ -1144,8 +1106,6 @@ border-style:none;
 .tp-simpleresponsive  .button.lightgrey, .tp-simpleresponsive  .button:hover.lightgrey,
 .tp-simpleresponsive  .purchase.lightgrey, .tp-simpleresponsive  .purchase:hover.lightgrey	{ background-color:#888; -webkit-box-shadow:  0px 3px 0px 0px #555;        -moz-box-shadow:   0px 3px 0px 0px #555;        box-shadow:   0px 3px 0px 0px #555;}
 
-
-
 /****************************************************************
 
 	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
@@ -1158,10 +1118,6 @@ border-style:none;
 										-ms-perspective: 1500px;
 										perspective: 1500px;
 									}*/
-
-
-
-
 /**********************************************
 	-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
 **********************************************/
@@ -1171,8 +1127,6 @@ border-style:none;
 		position:relative;
 		padding:0;
 }
-
-
 
 .fullwidthbanner-container{
 	width:100%;
@@ -1186,8 +1140,6 @@ border-style:none;
 	position:relative;
 }
 
-
-
 /************************************************
 	  - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
@@ -1197,11 +1149,7 @@ border-style:none;
 	position:absolute;visibility: hidden;
 	-webkit-font-smoothing: antialiased !important;
 }
-
-
 .tp-simpleresponsive img	{	max-width:none;}
-
-
 
 /******************************
 	-	IE8 HACKS	-
@@ -1209,8 +1157,6 @@ border-style:none;
 .noFilterClass {
 	filter:none !important;
 }
-
-
 /******************************
 	-	SHADOWS		-
 ******************************/
@@ -1228,8 +1174,6 @@ border-style:none;
 .tp-bannershadow.tp-shadow1 {	background:url(../assets/shadow1.html) no-repeat; background-size:100% 100%; width:890px; height:60px; bottom:-60px;}
 .tp-bannershadow.tp-shadow2 {	background:url(../assets/shadow2.html) no-repeat; background-size:100% 100%; width:890px; height:60px;bottom:-60px;}
 .tp-bannershadow.tp-shadow3 {	background:url(../assets/shadow3.html) no-repeat; background-size:100% 100%; width:890px; height:60px;bottom:-60px;}
-
-
 /********************************
 	-	FULLSCREEN VIDEO	-
 *********************************/
@@ -1238,12 +1182,8 @@ border-style:none;
 .caption.fullscreenvideo video	{ width:100% !important; height:100% !important; display: none}
 
 .tp-caption.fullscreenvideo	{	left:0px; top:0px; position:absolute;width:100%;height:100%;}
-
-
 .tp-caption.fullscreenvideo iframe,
 .tp-caption.fullscreenvideo iframe video	{ width:100% !important; height:100% !important; display: none;}
-
-
 .fullcoveredvideo video,
 .fullscreenvideo video					{	background: #000;}
 
@@ -1267,22 +1207,18 @@ border-style:none;
 								cursor: pointer;
 							}
 
-.html5vid .tp-revstop		{	width:6px;height:20px; border-left:5px solid #fff; border-right:5px solid #fff; position: relative;margin:10px 20px;}						
+.html5vid .tp-revstop		{	width:6px;height:20px; border-left:5px solid #fff; border-right:5px solid #fff; position: relative;margin:10px 20px;}
 .html5vid .tp-revstop	{	display:none;}
 .html5vid.videoisplaying .revicon-right-dir	{	display:none}
 .html5vid.videoisplaying .tp-revstop	{	display:block}
 
 .html5vid.videoisplaying .tp-video-play-button	{	display:none}
-.html5vid:hover .tp-video-play-button { display:block}		
+.html5vid:hover .tp-video-play-button { display:block}
 
-.fullcoveredvideo .tp-video-play-button	{	display:none !important}			
-
-
+.fullcoveredvideo .tp-video-play-button	{	display:none !important}
 /********************************
 	-	FULLSCREEN VIDEO ENDS	-
 *********************************/
-
-
 /********************************
 	-	DOTTED OVERLAYS	-
 *********************************/
@@ -1294,8 +1230,6 @@ border-style:none;
 /********************************
 	-	DOTTED OVERLAYS ENDS	-
 *********************************/
-
-
 /************************
 	-	NAVIGATION	-
 *************************/
@@ -1303,8 +1237,6 @@ border-style:none;
 /** BULLETS **/
 
 .tpclear		{	clear:both;}
-
-
 .tp-bullets									{	z-index:1000; position:absolute;
 												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 												-moz-opacity: 1;
@@ -1318,44 +1250,30 @@ border-style:none;
 												-khtml-opacity: 0;
 												opacity: 0;
 											}
-
-
 .tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(../assets/boxed_bgtile.html); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 .tp-bullets.simplebullets.navbar-old					{ 	 background:url(../assets/navigdots_bgtile.html); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
-
-
 .tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(../assets/bullet.html) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
 .tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(../assets/bullets.html) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
-
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(../assets/bullets2.html) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
-
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(../assets/bullets2.html) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square-old .bullet.last		{	margin-right:0px;}
-
-
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(../assets/bullet_boxed.html) no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:0px;}
 
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:0px !important;}
 
-
-
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(../assets/navigdots.html) no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar-old .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar-old .bullet.last		{	margin-right:0px !important;}
-
-
 .tp-bullets.simplebullets .bullet:hover,
 .tp-bullets.simplebullets .bullet.selected				{	background-position:top left; }
 
@@ -1364,8 +1282,6 @@ border-style:none;
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected		{	background-position:bottom left; }
 
-
-
 /*************************************
 	-	TP ARROWS 	-
 **************************************/
@@ -1373,7 +1289,7 @@ border-style:none;
 															-moz-opacity: 1;
 															-khtml-opacity: 1;
 															opacity: 1;
-															-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;			
+															-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
 															-webkit-transform: translateZ(5000px);
 															-webkit-transform-style: flat;
 															-webkit-backface-visibility: hidden;
@@ -1389,20 +1305,12 @@ border-style:none;
 														}
 .tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_left.html) no-Repeat top left;	width:40px;	height:40px;   }
 .tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_right.html) no-Repeat top left;	width:40px;	height:40px;   }
-
-
 .tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_left.html) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
 .tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_right.html) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:0px;}
-
-
 .tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_left.html) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:0px;	}
 .tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_right.html) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:0px;}
-
-
 .tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_left_boxed.html) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
 .tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_right_boxed.html) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
-
-
 .tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrowleft.html) no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
 .tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrowright.html) no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
 
@@ -1411,30 +1319,16 @@ border-style:none;
 
 .tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_left2.html) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
 .tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_right2.html) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
-
-
 .tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_left2.html) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
 .tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_right2.html) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
-
-
 .tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_left.html) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
 .tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_right.html) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
-
-
-
-
 .tp-leftarrow:hover,
 .tp-rightarrow:hover 									{	background-position:bottom left; }
-
-
-
-
-
-
 /****************************************************************************************************
 	-	TP THUMBS 	-
 *****************************************************************************************************
@@ -1444,20 +1338,14 @@ border-style:none;
  - .bullet width & height is the dimension of a simple Thumbnail (basic 100px x 50px)
 
  *****************************************************************************************************/
-
-
 .tp-bullets.tp-thumbs						{	z-index:1000; position:absolute; padding:3px;background-color:#fff;
 												width:500px;height:50px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
 												margin-top:-50px;
 											}
-
-
 .fullwidthbanner-container .tp-thumbs		{  padding:3px;}
 
 .tp-bullets.tp-thumbs .tp-mask				{	width:500px; height:50px;  			/* THE DIMENSIONS OF THE THUMB CONTAINER */
 												overflow:hidden; position:relative;}
-
-
 .tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer	{	width:5000px; position:absolute;}
 
 .tp-bullets.tp-thumbs .bullet				{   width:100px; height:50px; 			/* THE DIMENSION OF A SINGLE THUMB */
@@ -1470,8 +1358,6 @@ border-style:none;
 
 												-webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
 											}
-
-
 .tp-bullets.tp-thumbs .bullet:hover,
 .tp-bullets.tp-thumbs .bullet.selected		{ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 
@@ -1480,32 +1366,18 @@ border-style:none;
 												opacity: 1;
 											}
 .tp-thumbs img								{	width:100%; }
-
-
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
 .tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.html);position:absolute; z-index:200;top:0px;}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto;}
-
-
-
-
 /***************************************
 	-	RESPONSIVE SETTINGS 	-
 ****************************************/
-
-
-
-
     @media only screen and (min-width: 0px) and (max-width: 479px) {
 				.responsive .tp-bullets	{	display:none}
 				.responsive .tparrows	{	display:none;}
 	}
-
-
-
-
 
 /*********************************************
 
@@ -1519,8 +1391,6 @@ border-style:none;
         -webkit-user-select: none;
         -o-user-select: none;
 }
-
-
 
 .tp-simpleresponsive a{	text-decoration:none;}
 
@@ -1543,21 +1413,19 @@ border-style:none;
 	-	LOADER FORMS	-
 ********************************/
 
-.tp-loader 	{	  
-				top:50%; left:50%; 
-				z-index:10000; 
+.tp-loader 	{
+				top:50%; left:50%;
+				z-index:10000;
 				position:absolute;
-				
-
 			}
-			
+
 .tp-loader.spinner0 {
   width: 40px;
   height: 40px;
   background:url(../assets/loader.html) no-repeat center center;
   background-color: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
   margin-top:-20px;
   margin-left:-20px;
   -webkit-animation: tp-rotateplane 1.2s infinite ease-in-out;
@@ -1566,14 +1434,12 @@ border-style:none;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
-
-
 .tp-loader.spinner1 {
   width: 40px;
   height: 40px;
   background-color: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
   margin-top:-20px;
   margin-left:-20px;
   -webkit-animation: tp-rotateplane 1.2s infinite ease-in-out;
@@ -1583,18 +1449,14 @@ border-style:none;
 	-webkit-border-radius: 3px;
 }
 
-
-
-.tp-loader.spinner5 	{	background:url(../assets/loader.html) no-repeat 10px 10px; 
-							background-color:#fff;  
-							margin:-22px -22px; 							
+.tp-loader.spinner5 	{	background:url(../assets/loader.html) no-repeat 10px 10px;
+							background-color:#fff;
+							margin:-22px -22px;
 							width:44px;height:44px;
 							border-radius: 3px;
 							-moz-border-radius: 3px;
 							-webkit-border-radius: 3px;
 						}
-
-
 @-webkit-keyframes tp-rotateplane {
   0% { -webkit-transform: perspective(120px) }
   50% { -webkit-transform: perspective(120px) rotateY(180deg) }
@@ -1602,27 +1464,25 @@ border-style:none;
 }
 
 @keyframes tp-rotateplane {
-  0% { 
+  0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-  } 50% { 
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
-  } 100% { 
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
-
-
 .tp-loader.spinner2 {
   width: 40px;
   height: 40px;
   margin-top:-20px;margin-left:-20px;
   background-color: #ff0000;
    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
-  border-radius: 100%;  
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+  border-radius: 100%;
   -webkit-animation: tp-scaleout 1.0s infinite ease-in-out;
   animation: tp-scaleout 1.0s infinite ease-in-out;
 }
@@ -1636,7 +1496,7 @@ border-style:none;
 }
 
 @keyframes tp-scaleout {
-  0% { 
+  0% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
   } 100% {
@@ -1645,10 +1505,6 @@ border-style:none;
     opacity: 0;
   }
 }
-
-
-
-
 .tp-loader.spinner3 {
   margin: -9px 0px 0px -35px;
   width: 70px;
@@ -1663,7 +1519,7 @@ border-style:none;
   height: 18px;
   background-color: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: tp-bouncedelay 1.4s infinite ease-in-out;
@@ -1689,28 +1545,24 @@ border-style:none;
 }
 
 @keyframes tp-bouncedelay {
-  0%, 80%, 100% { 
+  0%, 80%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 40% { 
+  } 40% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
 }
-
-
-
-
 .tp-loader.spinner4 {
   margin: -20px 0px 0px -20px;
   width: 40px;
   height: 40px;
-  text-align: center; 
+  text-align: center;
   -webkit-animation: tp-rotate 2.0s infinite linear;
   animation: tp-rotate 2.0s infinite linear;
 }
 
-.tp-loader.spinner4 .dot1, 
+.tp-loader.spinner4 .dot1,
 .tp-loader.spinner4 .dot2 {
   width: 60%;
   height: 60%;
@@ -1718,11 +1570,11 @@ border-style:none;
   position: absolute;
   top: 0;
   background-color: #fff;
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: tp-bounce 2.0s infinite ease-in-out;
   animation: tp-bounce 2.0s infinite ease-in-out;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
 }
 
 .tp-loader.spinner4 .dot2 {
@@ -1741,23 +1593,19 @@ border-style:none;
 }
 
 @keyframes tp-bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
 }
 
-
-
 .tp-transparentimg {	content:"url(../assets/transparent.png)"}
 .tp-3d				{	-webkit-transform-style: preserve-3d;
 						 -webkit-transform-origin: 50% 50%;
 					}
-
-
 
 .tp-caption img {
 background: transparent;
@@ -1765,8 +1613,6 @@ background: transparent;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
 zoom: 1;
 }
-
-
 @font-face {
   font-family: 'revicons';
   src: url('../font/revicons90c6.html?5510888');

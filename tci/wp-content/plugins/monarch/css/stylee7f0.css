@@ -125,8 +125,6 @@
 .et_monarch .et_social_icon_wordpress:before,		.et_monarch .et_social_icon_wordpress:after 		{ content: "\e642"; }
 .et_monarch .et_social_icon_all_button:before,		.et_monarch .et_social_icon_all_button:after		{ content: "\e64c"; }
 
-
-
 /*------------[NETWORK DEFAULT COLORS]------------*/
 
 .et_monarch .et_social_facebook, .et_monarch .et_social_facebook, .et_monarch .et_social_networks.et_social_circle .et_social_facebook i { background-color: #3a579a; }
@@ -447,8 +445,6 @@
 	.widget_monarchwidget li:before { display: none; }
 		.et_monarch .widget_monarchwidget .et_social_networks.et_social_circle ul li { background-color: transparent !important; }
 
-
-
 /*------------------------------------------------*/
 /*----------------[ET SOCIAL FLYIN]---------------*/
 /*------------------------------------------------*/
@@ -589,8 +585,6 @@
 /*--------------------[BUILDER SUPPORT]--------------------*/
 .et_pb_pagebuilder_layout .et_social_inline { display: none; }
 .et_pb_pagebuilder_layout .et_pb_section .et_social_inline { display: block; }
-
-
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
 /*------------------------------------------------*/
@@ -616,8 +610,6 @@
 	.et_monarch .et_social_sidebar_networks.et_social_sidebar_withcounts .et_social_totalcount, .et_monarch .et_social_sidebar_networks.et_social_sidebar_flip .et_social_totalcount { width: 50px; }
 .et_monarch .et_social_sidebar_networks .et_social_totalcount_count { display: block; font-size: 18px; font-weight: 700; }
 .et_monarch .et_social_sidebar_networks .et_social_totalcount_label { display: block; font-size: 10px; }
-
-
 /*------------------------------------------------*/
 /*----------------[SIDEBAR STYLES]----------------*/
 /*------------------------------------------------*/
@@ -676,8 +668,6 @@ margin-right: -66px !important; }
 	.et_monarch .et_social_sidebar_slide i.et_social_icon:after { opacity: 0; width:100%; height:100%; position: absolute; top: 0; right:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 		.et_monarch .et_social_sidebar_slide li:hover i.et_social_icon:after { opacity: 1; right:0; }
 	.et_monarch .et_social_sidebar_slide .et_social_icon:after { display: inherit; }
-
-
 /*------------------------------------------------*/
 /*----------------[SIDEBAR SHAPES]----------------*/
 /*------------------------------------------------*/
@@ -717,8 +707,6 @@ margin-right: -66px !important; }
 .et_monarch .et_social_space li { margin-bottom: 4px; }
 .et_monarch .et_social_space.et_social_circle li { margin-bottom: 14px; }
 
-
-
 /*------------------------------------------------*/
 /*-------------------[SIDEBAR HIDE]---------------*/
 /*------------------------------------------------*/
@@ -729,8 +717,6 @@ margin-right: -66px !important; }
 	.et_monarch .et_social_sidebar_withcounts span.et_social_hide_sidebar, .et_monarch .et_social_rectangle.et_social_sidebar_flip span.et_social_hide_sidebar, .et_monarch .et_social_rounded.et_social_sidebar_flip span.et_social_hide_sidebar { margin-left: 13px !important; }
 	.et_monarch .et_social_circle.et_social_sidebar_border span.et_social_hide_sidebar { margin-left: 11px !important; }
 	.et_monarch .et_social_circle.et_social_sidebar_withcounts.et_social_sidebar_border span.et_social_hide_sidebar { margin-left: 16px !important; }
-
-
 /*----------------[HIDE BUTTON CLOSED]------------*/
 .et_monarch .et_social_sidebar_networks span.et_social_hide_sidebar.et_social_hidden_sidebar { margin-left: 0 !important; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
 	.et_monarch .et_social_sidebar_networks.et_social_circle span.et_social_hide_sidebar.et_social_hidden_sidebar { margin-left: -10px !important; }
@@ -778,8 +764,6 @@ margin-right: -66px !important; }
 
 .et_monarch .et_social_circle .et_social_overlay { display: none; }
 
-
-
 /*------------------------------------------------*/
 /*-------------------[COLUMNS]--------------------*/
 /*------------------------------------------------*/
@@ -806,8 +790,6 @@ margin-right: -66px !important; }
 
 .et_monarch .et_social_visible { z-index: 999999; }
 
-
-
 /*------------------------------------------------*/
 /*----------------[MEDIA WRAPPER]-----------------*/
 /*------------------------------------------------*/
@@ -817,8 +799,6 @@ margin-right: -66px !important; }
 	.et_monarch .et_social_media_wrapper:hover .et_social_media { opacity: 1; }
 		.et_monarch .et_social_media_wrapper .et_social_share { cursor: pointer; }
 			.et_monarch .et_social_media_wrapper .et_social_left .et_social_share { display: inline-block; width: 100%; }
-
-
 .et_monarch .et_social_icons_container a, a.et_social_icon_cancel { text-decoration: none !important; }
 
 /*------------------------------------------------*/
@@ -882,8 +862,6 @@ margin-right: -66px !important; }
 .et_monarch .et_pb_pagebuilder_layout .et_social_inline { display: none; }
 .et_monarch .et_pb_section .et_social_inline { display: block; }
 .et_monarch .et_pb_section .et_social_inline_top, .et_monarch .et_pb_section .et_social_inline_bottom { margin-top: 0; margin-bottom: 30px; }
-
-
 
 /*------------------------------------------------*/
 /*----------------[RESPONSIVE STYLES]-------------*/
@@ -985,7 +963,7 @@ margin-right: -66px !important; }
 @-o-keyframes et_social_slideTop { 0% { -o-transform: translateY(0); } 100% { -o-transform: translateY(0); } }
 @keyframes et_social_slideTop { 0% { transform: translateY(0); } 100% { transform: translateY(0); } }
 
-/*! The following animations courtesy of Animate.css - http://daneden.me/animate Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2014 Daniel Eden */
+/*! The following animations courtesy of Animate.css - //daneden.me/animate Licensed under the MIT license - //opensource.org/licenses/MIT Copyright (c) 2014 Daniel Eden */
 
 @-webkit-keyframes et_social_swing {
 	20% { -webkit-transform: rotate3d(0, 0, 1, 15deg); transform: rotate3d(0, 0, 1, 15deg); }

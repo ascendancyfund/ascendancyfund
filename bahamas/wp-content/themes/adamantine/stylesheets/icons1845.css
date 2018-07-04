@@ -17,8 +17,6 @@
         src: url('fonts/icomoonf13c.svg?mb3b1k#icomoon') format('svg');
     }
 }
-
-
 /* Custom BOC Icons */
 .icon {
 	font-family: 'icomoon';
@@ -36,7 +34,7 @@
 }
 
 i.icon {
-	/*  These overwrite VC styles */	
+	/*  These overwrite VC styles */
 	width: auto !important;
 	height: auto !important;
 	vertical-align: inherit !important;

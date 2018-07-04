@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	
+
 	// Remove Duplicate Popups IDs
 	jQuery('.pps-popup').each(function(){
 		var ids = jQuery('[id=\''+this.id+'\']');
@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 	//Fix Max Height
 	var wHeight = jQuery(window).height();
 	jQuery(".pps-popup").css('max-height',wHeight-70);
-	
+
 	//Fix Pause Video Youtube
 	arrayIframe = [];
 	jQuery('.pps-embed iframe, .pps-content-wp-editor iframe, .pps-iframe iframe').each(function(i, el){
@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 		//jQuery(this).remove();
 	});
 	removeIframesVideos();
-	
+
 	//Fix Close Multiple Popups
 	jQuery('.pps-popup .pps-btn').on('click',function(e){
 		e.preventDefault();
@@ -35,7 +35,7 @@ jQuery(document).ready(function($){
 		if(confirm("Really you want restore values?"))
 			updateViewsPopupPress(idPopup,"restore");
 	});
-	
+
 });
 
 function onOpenPopupPress(id){
@@ -77,7 +77,7 @@ function removeIframesVideos(){
 
 function pauseVideosPopupPress(id) {
 	removeIframesVideos();
-	
+
 	if(jQuery('.pps-video-fix').length){
 		setTimeout(function(){
 			jQuery('ul.slides-pps li').each(function(i, el){
@@ -87,7 +87,7 @@ function pauseVideosPopupPress(id) {
 					This.find('.pps-video-fix').html(arrayIframe[j]);
 					jQuery("#popuppress-"+id).height("auto");
 				}
-			});	
+			});
 		},100);
 	}
 }
@@ -111,7 +111,7 @@ function restoreVideosPopupPress(id){
 			});
 		}, 200);
 	}
-	
+
 }
 
 function removeVideosPopupPress(id){
@@ -120,11 +120,9 @@ function removeVideosPopupPress(id){
 			jQuery('div.pps-video-fix').each(function(i, el){
 				jQuery(this).find('iframe').remove();
 			});
-		}, 200);	
+		}, 200);
 	}
 }
-
-
 function refreshTopPosition(id) {
 	var wHeight = jQuery(window).height();
 	var wScrollTop = jQuery(window).scrollTop();
@@ -134,8 +132,6 @@ function refreshTopPosition(id) {
 		topPosition = wScrollTop + (wHeight-popupHeight)/2;
 	jQuery("#popuppress-"+id).animate({top: topPosition + 5 }, 500 );
 }
-
-
 function updateViewsPopupPress(id,restore){
 	datos = 'action=update_views_popups&plugin=popuppress&id='+id+'&restore=no';
 	if(restore)
@@ -153,13 +149,13 @@ function updateViewsPopupPress(id,restore){
 			}
 		}
 	});
-	
+
 }
 function closeSettingsPopupPress(id,close_mouseleave){
 	if(close_mouseleave == 'true') {
 		jQuery("#popuppress-"+id).mouseleave(function() {
 				jQuery(this).bPopup().close();
 				jQuery('.b-modal').remove();
-		});	
+		});
 	}
 }
