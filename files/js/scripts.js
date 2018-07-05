@@ -562,16 +562,18 @@ $(document).ready(function() {
 		//Move trough each menu and check its position with scroll position then add current class
 		$('.navbar ul a').each(function() {
 
-			thisHref				= $(this).attr('href');
-			thisTruePosition	= parseInt($(thisHref).offset().top);
-			thisPosition 		= thisTruePosition - headerWrapper - offsetTolerance;
+			thisHref			= $(this).attr('href');
+            if(thisHref.length){
+                thisTruePosition    = parseInt($(thisHref).offset().top);
+                thisPosition        = thisTruePosition - headerWrapper - offsetTolerance;
 
-			if(scrollPosition >= thisPosition) {
+                if(scrollPosition >= thisPosition) {
 
-				$('.current').removeClass('current');
-				$('.navbar ul a[href='+ thisHref +']').parent('li').addClass('current');
+                    $('.current').removeClass('current');
+                    $('.navbar ul a[href='+ thisHref +']').parent('li').addClass('current');
 
-			}
+                }
+            }
 		});
 		//If we're at the bottom of the page, move pointer to the last section
 		bottomPage	= parseInt($(document).height()) - parseInt($(window).height());
