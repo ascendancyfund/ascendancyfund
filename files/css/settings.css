@@ -11,19 +11,15 @@ email:     	info@themepunch.com
 website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 
-
-
 /*************************
 	-	CAPTIONS	-
 **************************/
 
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important;}
 
-
 .tp-caption { z-index:1; white-space:nowrap}
 
 .tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important;}
-
 
 .tp-caption.whitedivider3px {
 
@@ -40,7 +36,6 @@ website:   	http://www.themepunch.com
 	border-color: #000000;
 	border-style: none;
 }
-
 
 .tp-caption.finewide_large_white {
 color:#ffffff;
@@ -268,7 +263,6 @@ border-style:none;
 white-space:nowrap;
 }
 
-
 .tp-caption.medium_grey {
 position:absolute;
 color:#fff;
@@ -312,7 +306,6 @@ border-width:0px;
 border-style:none;
 white-space:nowrap;
 }
-
 
 .tp-caption.large_bold_white_25 {
 font-size:55px;
@@ -1008,8 +1001,6 @@ border-color:rgb(255, 214, 88);
 border-style:none;
 }
 
-
-
 .tp-caption.boxshadow{
 		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -1029,15 +1020,12 @@ border-style:none;
 		text-shadow: none;
 	}
 
-
 .tp_inner_padding	{	box-sizing:border-box;
 						-webkit-box-sizing:border-box;
 						-moz-box-sizing:border-box;
 						max-height:none !important;	}
 
-
 /*.tp-caption			{	transform:none !important}*/
-
 
 /*********************************
 	-	SPECIAL TP CAPTIONS -
@@ -1090,23 +1078,17 @@ border-style:none;
 
 .tp-simpleresponsive  .button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(/files/images/gradient/g40.png) repeat-x top;}
 
-
 .tp-simpleresponsive  .purchase:hover,
 .tp-simpleresponsive  .button:hover,
 .tp-simpleresponsive  .button.big:hover		{	background-position:bottom, 15px 11px;}
-
-
 
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 
 	 }
 
-
-
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		.tp-simpleresponsive  .button	{	padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
 		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
-
 
 	}
 
@@ -1115,21 +1097,13 @@ border-style:none;
 		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 	}
 
-
-
-
-
 /*	BUTTON COLORS	*/
-
-
 
 .tp-simpleresponsive  .button.green, .tp-simpleresponsive  .button:hover.green,
 .tp-simpleresponsive  .purchase.green, .tp-simpleresponsive  .purchase:hover.green			{ background-color:#21a117; -webkit-box-shadow:  0px 3px 0px 0px #104d0b;        -moz-box-shadow:   0px 3px 0px 0px #104d0b;        box-shadow:   0px 3px 0px 0px #104d0b;  }
 
-
 .tp-simpleresponsive  .button.blue, .tp-simpleresponsive  .button:hover.blue,
 .tp-simpleresponsive  .purchase.blue, .tp-simpleresponsive  .purchase:hover.blue			{ background-color:#1d78cb; -webkit-box-shadow:  0px 3px 0px 0px #0f3e68;        -moz-box-shadow:   0px 3px 0px 0px #0f3e68;        box-shadow:   0px 3px 0px 0px #0f3e68;}
-
 
 .tp-simpleresponsive  .button.red, .tp-simpleresponsive  .button:hover.red,
 .tp-simpleresponsive  .purchase.red, .tp-simpleresponsive  .purchase:hover.red				{ background-color:#cb1d1d; -webkit-box-shadow:  0px 3px 0px 0px #7c1212;        -moz-box-shadow:   0px 3px 0px 0px #7c1212;        box-shadow:   0px 3px 0px 0px #7c1212;}
@@ -1144,8 +1118,6 @@ border-style:none;
 .tp-simpleresponsive  .button.lightgrey, .tp-simpleresponsive  .button:hover.lightgrey,
 .tp-simpleresponsive  .purchase.lightgrey, .tp-simpleresponsive  .purchase:hover.lightgrey	{ background-color:#888; -webkit-box-shadow:  0px 3px 0px 0px #555;        -moz-box-shadow:   0px 3px 0px 0px #555;        box-shadow:   0px 3px 0px 0px #555;}
 
-
-
 /****************************************************************
 
 	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
@@ -1159,9 +1131,6 @@ border-style:none;
 										perspective: 1500px;
 									}*/
 
-
-
-
 /**********************************************
 	-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
 **********************************************/
@@ -1171,8 +1140,6 @@ border-style:none;
 		position:relative;
 		padding:0;
 }
-
-
 
 .fullwidthbanner-container{
 	width:100%;
@@ -1186,8 +1153,6 @@ border-style:none;
 	position:relative;
 }
 
-
-
 /************************************************
 	  - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
@@ -1198,10 +1163,7 @@ border-style:none;
 	-webkit-font-smoothing: antialiased !important;
 }
 
-
 .tp-simpleresponsive img	{	max-width:none;}
-
-
 
 /******************************
 	-	IE8 HACKS	-
@@ -1209,7 +1171,6 @@ border-style:none;
 .noFilterClass {
 	filter:none !important;
 }
-
 
 /******************************
 	-	SHADOWS		-
@@ -1229,7 +1190,6 @@ border-style:none;
 .tp-bannershadow.tp-shadow2 {	background:url(/files/assets/shadow2.png) no-repeat; background-size:100% 100%; width:890px; height:60px;bottom:-60px;}
 .tp-bannershadow.tp-shadow3 {	background:url(/files/assets/shadow3.png) no-repeat; background-size:100% 100%; width:890px; height:60px;bottom:-60px;}
 
-
 /********************************
 	-	FULLSCREEN VIDEO	-
 *********************************/
@@ -1239,10 +1199,8 @@ border-style:none;
 
 .tp-caption.fullscreenvideo	{	left:0px; top:0px; position:absolute;width:100%;height:100%;}
 
-
 .tp-caption.fullscreenvideo iframe,
 .tp-caption.fullscreenvideo iframe video	{ width:100% !important; height:100% !important; display: none;}
-
 
 .fullcoveredvideo video,
 .fullscreenvideo video					{	background: #000;}
@@ -1277,11 +1235,9 @@ border-style:none;
 
 .fullcoveredvideo .tp-video-play-button	{	display:none !important}
 
-
 /********************************
 	-	FULLSCREEN VIDEO ENDS	-
 *********************************/
-
 
 /********************************
 	-	DOTTED OVERLAYS	-
@@ -1295,7 +1251,6 @@ border-style:none;
 	-	DOTTED OVERLAYS ENDS	-
 *********************************/
 
-
 /************************
 	-	NAVIGATION	-
 *************************/
@@ -1303,7 +1258,6 @@ border-style:none;
 /** BULLETS **/
 
 .tpclear		{	clear:both;}
-
 
 .tp-bullets									{	z-index:1000; position:absolute;
 												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1319,11 +1273,9 @@ border-style:none;
 												opacity: 0;
 											}
 
-
 .tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(/files/assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 .tp-bullets.simplebullets.navbar-old					{ 	 background:url(/files/assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
-
 
 .tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(/files/assets/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
@@ -1331,16 +1283,13 @@ border-style:none;
 .tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(/files/assets/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
 
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(/files/assets/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
 
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(/files/assets/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square-old .bullet.last		{	margin-right:0px;}
-
 
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(/files/assets/bullet_boxed.png) no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:0px;}
@@ -1348,13 +1297,10 @@ border-style:none;
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:0px !important;}
 
-
-
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(/files/assets/navigdots.png) no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar-old .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar-old .bullet.last		{	margin-right:0px !important;}
-
 
 .tp-bullets.simplebullets .bullet:hover,
 .tp-bullets.simplebullets .bullet.selected				{	background-position:top left; }
@@ -1363,8 +1309,6 @@ border-style:none;
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected		{	background-position:bottom left; }
-
-
 
 /*************************************
 	-	TP ARROWS 	-
@@ -1390,18 +1334,14 @@ border-style:none;
 .tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
 .tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
 
-
 .tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/small_left.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
 .tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/small_right.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:0px;}
-
 
 .tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_left.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:0px;	}
 .tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_right.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:0px;}
 
-
 .tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/small_left_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
 .tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/small_right_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
-
 
 .tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrowleft.png) no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
 .tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrowright.png) no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
@@ -1412,10 +1352,8 @@ border-style:none;
 .tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
 .tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
 
-
 .tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
 .tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
-
 
 .tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(/files/assets/large_left.png) no-Repeat 0 0;	width:40px;	height:40px;
 
@@ -1424,16 +1362,8 @@ border-style:none;
 
 														}
 
-
-
-
 .tp-leftarrow:hover,
 .tp-rightarrow:hover 									{	background-position:bottom left; }
-
-
-
-
-
 
 /****************************************************************************************************
 	-	TP THUMBS 	-
@@ -1445,18 +1375,15 @@ border-style:none;
 
  *****************************************************************************************************/
 
-
 .tp-bullets.tp-thumbs						{	z-index:1000; position:absolute; padding:3px;background-color:#fff;
 												width:500px;height:50px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
 												margin-top:-50px;
 											}
 
-
 .fullwidthbanner-container .tp-thumbs		{  padding:3px;}
 
 .tp-bullets.tp-thumbs .tp-mask				{	width:500px; height:50px;  			/* THE DIMENSIONS OF THE THUMB CONTAINER */
 												overflow:hidden; position:relative;}
-
 
 .tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer	{	width:5000px; position:absolute;}
 
@@ -1471,7 +1398,6 @@ border-style:none;
 												-webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
 											}
 
-
 .tp-bullets.tp-thumbs .bullet:hover,
 .tp-bullets.tp-thumbs .bullet.selected		{ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 
@@ -1481,31 +1407,20 @@ border-style:none;
 											}
 .tp-thumbs img								{	width:100%; }
 
-
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
 .tp-bannertimer								{	width:100%; height:10px; background:url(/files/assets/timer.png);position:absolute; z-index:200;top:0px;}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto;}
 
-
-
-
 /***************************************
 	-	RESPONSIVE SETTINGS 	-
 ****************************************/
-
-
-
 
     @media only screen and (min-width: 0px) and (max-width: 479px) {
 				.responsive .tp-bullets	{	display:none}
 				.responsive .tparrows	{	display:none;}
 	}
-
-
-
-
 
 /*********************************************
 
@@ -1519,8 +1434,6 @@ border-style:none;
         -webkit-user-select: none;
         -o-user-select: none;
 }
-
-
 
 .tp-simpleresponsive a{	text-decoration:none;}
 
@@ -1548,7 +1461,6 @@ border-style:none;
 				z-index:10000;
 				position:absolute;
 
-
 			}
 
 .tp-loader.spinner0 {
@@ -1567,7 +1479,6 @@ border-style:none;
 	-webkit-border-radius: 3px;
 }
 
-
 .tp-loader.spinner1 {
   width: 40px;
   height: 40px;
@@ -1583,8 +1494,6 @@ border-style:none;
 	-webkit-border-radius: 3px;
 }
 
-
-
 .tp-loader.spinner5 	{	background:url(/files/assets/loader.gif) no-repeat 10px 10px;
 							background-color:#fff;
 							margin:-22px -22px;
@@ -1593,7 +1502,6 @@ border-style:none;
 							-moz-border-radius: 3px;
 							-webkit-border-radius: 3px;
 						}
-
 
 @-webkit-keyframes tp-rotateplane {
   0% { -webkit-transform: perspective(120px) }
@@ -1613,7 +1521,6 @@ border-style:none;
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
-
 
 .tp-loader.spinner2 {
   width: 40px;
@@ -1645,9 +1552,6 @@ border-style:none;
     opacity: 0;
   }
 }
-
-
-
 
 .tp-loader.spinner3 {
   margin: -9px 0px 0px -35px;
@@ -1698,9 +1602,6 @@ border-style:none;
   }
 }
 
-
-
-
 .tp-loader.spinner4 {
   margin: -20px 0px 0px -20px;
   width: 40px;
@@ -1750,14 +1651,10 @@ border-style:none;
   }
 }
 
-
-
 .tp-transparentimg {	content:"url(../assets/transparent.png)"}
 .tp-3d				{	-webkit-transform-style: preserve-3d;
 						 -webkit-transform-origin: 50% 50%;
 					}
-
-
 
 .tp-caption img {
 background: transparent;
@@ -1765,7 +1662,6 @@ background: transparent;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
 zoom: 1;
 }
-
 
 @font-face {
   font-family: 'revicons';

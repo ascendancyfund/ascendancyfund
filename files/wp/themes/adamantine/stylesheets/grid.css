@@ -8,7 +8,7 @@
 	box-sizing: border-box;
 }
 
-.boxed_wrapper, 
+.boxed_wrapper,
 .boxed_wrapper #header,
 .boxed_wrapper #footer {
 	width: 1260px;
@@ -38,18 +38,16 @@
     zoom:1; /* For IE 6/7 */
 }
 
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
 	margin: 0 0 30px 3%;
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
-	box-sizing: border-box;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .col:first-child { margin-left: 0; }
-
 
 /*  GROUPING  */
 /*
@@ -116,7 +114,6 @@
 	width: 17.6%;
 }
 
-
 /*  GRID OF SIX  */
 .span_6_of_6 {
 	width: 100%;
@@ -142,12 +139,10 @@
   	width: 14.16%;
 }
 
-
 /* Columns with No margin, Mega Menu Columns*/
 .col_2 { width: 50% }
 .col_3 { width: 33.3333% }
 .col_4 { width: 25% }
 .col_5 { width: 20% }
 .col_6 { width: 16.6666% }
-
 

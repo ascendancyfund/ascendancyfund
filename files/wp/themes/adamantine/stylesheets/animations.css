@@ -76,8 +76,7 @@
 	}
 	@keyframes spin{
 		100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
-	}	
-	
+	}
 
 	/* These are for Owl Carousel from Animation.css lib */
 
@@ -148,7 +147,6 @@
 			  animation-name: fadeInUp;
 	}
 
-
 	@-webkit-keyframes flipInX {
 	  0% {
 		-webkit-transform: perspective(6000px) rotate3d(1, 0, 0, 90deg);
@@ -212,8 +210,6 @@
 			  animation-name: flipInX;
 	}
 
-
-
 	/* Btn arrow bounce */
 	@-webkit-keyframes sideBounce {
 		0, 100% {
@@ -255,11 +251,6 @@
 			animation: sideBounce .85s linear infinite;
 	}
 
-
-
-
-
-
 	/* Typed.js */
 	.typed-cursor{
 		opacity: 1;
@@ -282,16 +273,6 @@
 		50% { opacity:0; }
 		100% { opacity:1; }
 	}
-
-
-
-
-
-
-
-
-
-
 
 	/* Custom Animation for Side Icon boxes */
 	.side_icon_box.boc_animate_when_almost_visible.boc_start_animation > * {
@@ -325,22 +306,17 @@
 		transform: translateX(40px);
 	}
 	.side_icon_box.boc_animate_when_almost_visible.boc_start_animation .side_icon_box_content {
-		opacity:1;	
+		opacity:1;
 		transform: translateX(0px);
 	}
 	/* Custom Animation for Top Icon boxes : END */
 
-
-
-
-
-
 	/* Custom Animation for Top Icon boxes */
-	.top_icon_box.boc_animate_when_almost_visible > *:not(a), 
+	.top_icon_box.boc_animate_when_almost_visible > *:not(a),
 	.top_icon_box.boc_animate_when_almost_visible > a > div {
 		opacity:0;
 	}
-	.top_icon_box.boc_animate_when_almost_visible.boc_start_animation > *, 
+	.top_icon_box.boc_animate_when_almost_visible.boc_start_animation > *,
 	.top_icon_box.boc_animate_when_almost_visible.boc_start_animation > a > div  {
 		opacity:1;
 
@@ -362,7 +338,7 @@
 	.top_icon_box.boc_animate_when_almost_visible.boc_start_animation .icon_holder {
 		-moz-transform: rotateY( 360deg );
 		-webkit-transform: rotateY( 360deg );
-		transform: rotateY( 360deg );	
+		transform: rotateY( 360deg );
 	}
 
 	.top_icon_box.boc_animate_when_almost_visible h3 {
@@ -398,7 +374,7 @@
 
 /* For smaller screens */
 @media only screen and (max-width: 768px) {
-	
+
 	/* VC default animations (vc_single_image, vc_column_text) */
 	.wpb_animate_when_almost_visible {
 	  opacity: 1;
