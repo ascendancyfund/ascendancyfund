@@ -6,7 +6,7 @@
   src:url("/files/fonts/budicons/budicon.eot?#iefix") format("embedded-opentype"),
     url("/files/fonts/budicons/budicon.woff") format("woff"),
     url("/files/fonts/budicons/budicon.ttf") format("truetype"),
-    url("/files/fonts/budicons/budicon.svg#budicon") format("svg");
+    url("/files/fonts/budicons/budicon.svg?#budicon") format("svg");
   font-weight: normal;
   font-style: normal;
 
